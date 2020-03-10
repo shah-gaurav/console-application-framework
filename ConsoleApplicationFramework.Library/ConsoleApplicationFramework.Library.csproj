@@ -2,6 +2,24 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>ConsoleApplicationFramework</PackageId>
+    <Version>1.0.0</Version>
+    <AssemblyName>ConsoleApplicationFramework.Library</AssemblyName>
+    <RootNamespace>ConsoleApplicationFramework.Library</RootNamespace>
+    <Authors>Gaurav Shah</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Framework to help make console applications without writing a lot of boilerplate code.</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/shah-gaurav/console-application-framework</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/shah-gaurav/console-application-framework</RepositoryUrl>
+    <PackageTags>console application cli framework .NET .NETCore NETStandard</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
